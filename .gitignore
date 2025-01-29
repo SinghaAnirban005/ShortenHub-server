@@ -1,0 +1,39 @@
+# Binaries and build artifacts
+/bin/
+/obj/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Vendor directory (if using vendoring)
+vendor/
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.swp
+
+# Environment variables and config files
+.env*
+.env
+config.yaml
+
+# Test output and coverage reports 
+*.out 
+*.coverprofile 
+coverage.out 
+
+# Logs and temporary files 
+*.log 
+tmp/ 
+temp/ 
+
+# OS-specific files 
+.DS_Store 
+Thumbs.db 
+
+# GoLand specific files 
+*.iml 
